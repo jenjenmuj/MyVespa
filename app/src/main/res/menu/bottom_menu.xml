@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res/res-auto"
     >
     <item
-        android:id="@+id/action_back"
+        android:id="@+id/action_service"
         android:enabled="true"
-        android:title="Back"
-        android:icon="@drawable/ic_keyboard_arrow_left_black_24dp"
+        android:title="Service"
+        android:icon="@drawable/ic_build_black_24dp"
         />
 
     <item
@@ -14,6 +14,12 @@
         android:enabled="true"
         android:title="Vespa"
         android:icon="@drawable/ic_motorcycle_black_24dp"
+        />
+    <item
+        android:id="@+id/action_rent"
+        android:enabled="true"
+        android:title="Scooter Rental"
+        android:icon="@drawable/ic_access_time_black_24dp"
         />
 
 

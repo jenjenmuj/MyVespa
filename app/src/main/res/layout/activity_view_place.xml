@@ -42,7 +42,7 @@
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/place_open_hour"
+            android:id="@+id/place_open_hours"
             android:textSize="18sp"
             android:textStyle="bold"
             android:text="Open now : "

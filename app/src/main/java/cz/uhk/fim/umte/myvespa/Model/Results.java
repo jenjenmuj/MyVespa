@@ -21,6 +21,26 @@ public class Results {
 
     private Geometry geometry;
 
+    private String rating;
+
+    private Opening_hours opening_hours;
+
+    public Opening_hours getOpening_hours() {
+        return opening_hours;
+    }
+
+    public void setOpening_hours(Opening_hours opening_hours) {
+        this.opening_hours = opening_hours;
+    }
+
+    public String getRating() {
+        return rating;
+    }
+
+    public void setRating(String rating) {
+        this.rating = rating;
+    }
+
     public Photos[] getPhotos ()
     {
         return photos;

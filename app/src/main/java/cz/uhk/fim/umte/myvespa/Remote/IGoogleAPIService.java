@@ -8,4 +8,7 @@ import retrofit2.http.Url;
 public interface IGoogleAPIService {
     @GET
     Call<MyPlaces> getNearByPlaces(@Url String url);
+
+    @GET
+    Call<MyPlaces> getDetail(@Url String url);
 }

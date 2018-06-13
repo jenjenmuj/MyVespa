@@ -30,4 +30,5 @@ public class Location {
     {
         return "ClassPojo [lng = "+lng+", lat = "+lat+"]";
     }
+
 }

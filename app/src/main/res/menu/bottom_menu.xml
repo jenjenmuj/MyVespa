@@ -6,20 +6,20 @@
         android:id="@+id/action_service"
         android:enabled="true"
         android:title="Service"
-        android:icon="@drawable/ic_build_black_24dp"
+        android:icon="@drawable/ic_service"
         />
 
     <item
         android:id="@+id/action_vespa"
         android:enabled="true"
         android:title="Vespa"
-        android:icon="@drawable/ic_motorcycle_black_24dp"
+        android:icon="@drawable/ic_moto"
         />
     <item
         android:id="@+id/action_rent"
         android:enabled="true"
-        android:title="Scooter Rental"
-        android:icon="@drawable/ic_access_time_black_24dp"
+        android:title="Scooter for Rent"
+        android:icon="@drawable/ic_time"
         />
 
 

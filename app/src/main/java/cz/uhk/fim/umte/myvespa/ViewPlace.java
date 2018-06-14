@@ -69,7 +69,7 @@ public class ViewPlace extends AppCompatActivity {
                     .into(photo);
         }
 
-        // RAting bar
+        // Rating bar
         if (Common.currentResult.getRating() != null && !TextUtils.isEmpty(Common.currentResult.getRating())) {
             ratingBar.setRating((Float.parseFloat(Common.currentResult.getRating())));
         } else {
